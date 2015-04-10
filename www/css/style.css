@@ -1,0 +1,224 @@
+body{
+	background: #008ACC !important;
+	margin: 0;
+	padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 600px;
+} 
+.slide_contact {
+	text-align: center;
+}
+
+
+.contact_kayeezin h3{
+	color:#fff;
+	text-transform: none;
+	text-align: center;
+}
+.contact_kayeezin .phone_call a{
+	text-decoration: none;
+	color:#fff;
+}
+.contact_kayeezin p{
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: none;
+}
+.main_body{
+	background-color: #008ACC !important;
+	margin: 0;
+	padding: 0;
+}
+.main_body .top_banner{
+	background-color:#fff;
+	text-align: center;
+	padding: 30px 0 60px 0;
+}
+.main_body .top_banner img{
+	margin: 0 auto;
+}
+.top_banner .kay_smallview{
+	display: none;
+}
+.option_term h4{
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-transform: none !important;
+}
+.kayee_trip{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+a#check-connection{
+	text-decoration: none;
+}
+a#connection{
+	text-decoration: none;
+}
+.round_way{
+	display: block;
+	color:#fff;
+	border-radius:5px;
+	background-color: #0060AB;
+	padding-bottom: 40px;
+	text-align: center;
+	padding-top: 40px;
+	
+}
+
+
+.one_trip{
+	display: block;
+	color:#fff;
+	border-radius:5px;
+	background-color: #0060AB;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+
+.office{
+	margin-top: 40px;
+}
+.office h4{
+	padding:0px;
+	text-align: center;
+	color:#fff;
+	
+}
+.office p{
+	font-size: 18px;
+	line-height: 24px;
+}
+a.round_trip:hover{
+	text-decoration: none;
+}
+a.one_way :hover{
+	text-decoration: none;
+}
+
+
+.slide_contact {
+	
+	background-color:#008ACC;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	text-transform: none !important;
+} 
+.slide_contact h4{
+	color:#fff;
+	padding:15px 0;
+	margin: 0;
+	bottom:0px;
+	text-align: center;
+	text-transform: none !important;
+} 
+.footer_banner{
+	background-color:#fff ;
+	padding: 0;
+	position: fixed;
+	bottom:0px;
+	width:100%;
+	z-index: 99;
+}
+.footer p{
+	color:#999;
+	padding:15px 0;
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+	text-transform: none !important;
+}
+.footer a{
+	color:#999;
+}
+.footer a:hover{
+ text-decoration: none;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:600px) {
+	
+}
+
+@media screen and (max-height:650px){
+	
+   .main_body .top_banner{
+   		padding-bottom: 40px;
+   }
+   .top_banner .kay_icon, .top_banner .kay_text{
+   	  display: none;
+	}
+   .top_banner .kay_smallview{
+   		display: block;
+   }
+   .contact_kayeezin .office:last-child{
+   	margin-top: 0;
+   }
+
+}
+@media screen and (max-height:550px){
+
+   .main_body .top_banner{
+   		padding-top: 30px;
+   		padding-bottom: 30px;
+   }
+   .contact_kayeezin .office:last-child{
+   	display: none;
+   }
+   .round_way, .one_trip{
+   	padding-top: 30px;
+   	padding-bottom: 30px;
+   }
+
+}
+@media screen and (max-height:480px){
+
+   .main_body .top_banner{
+   		padding-top: 20px;
+   		padding-bottom: 20px;
+   }
+   .contact_kayeezin .office:last-child{
+   	display: none;
+   }
+   .round_way, .one_trip{
+   	padding-top: 20px;
+   	padding-bottom: 20px;
+   }
+
+}
+@media screen  and (max-width:750px) {
+	
+   .round_way{
+	display: block;
+	color:#fff;
+	border-radius:5px;
+	background-color: #0060AB;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	
+	}
+	
+	.one_trip{
+		display: block;
+		color:#fff;
+		border-radius:5px;
+		background-color: #0060AB;
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		margin-top: 30px;
+
+		
+	}
+	
+}

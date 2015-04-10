@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="kayeezin">
+    <output-path>$PROJECT_DIR$/out/artifacts/kayeezin</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+      </options>
+    </properties>
+    <root id="archive" name="kayeezin.apk" />
+  </artifact>
+</component>
